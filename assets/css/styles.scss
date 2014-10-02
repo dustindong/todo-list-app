@@ -31,51 +31,51 @@ img{
 
 .wrap {
   background-color: $h-color;
-  max-width: 40em;
   margin: 0 auto;
+  max-width: 40em;
 }
 
 .header {
-  border: 0px solid $border-color;
-  text-align: center;
-  color: white;
   background-color: $h-color;
-  vertical-align: center;
+  border: 0px solid $border-color;
+  color: white;
   margin: 0;
-  padding: 0;
   margin-bottom: 0em;
+  padding: 0;
+  text-align: center;
+  vertical-align: center;
 }
 
 .todo {
-  border: 0 1px solid $border-color;
   background-color: $bg-color;
+  border: 0 1px solid $border-color;
   font-size: 1.5em;
 }
 
 .todo input {
-  width: 100%;
   padding-left: .2em;
+  width: 100%;
 }
 
 .list {
+  background-color: $bg-color;
+  border: 0px solid $border-color;
+  font-size: 1.5em;
   margin: 0;
   padding: 0;
-  border: 0px solid $border-color;
-  background-color: $bg-color;
-  font-size: 1.5em;
   word-wrap: break-word;
 
 }
 
 .list ol {
+  list-style-type: none;
   margin: 0;
   padding: 0;
-  list-style-type: none;
 }
 
 .list li {
-  padding: .3em;
   overflow: hidden;
+  padding: .3em;
   width: 100%;
 }
 .list li:nth-child(even) {
@@ -84,23 +84,24 @@ img{
 
 .addtodo button {
     background-color: $b-color;
-    text-decoration: none;
     border: 0;
-    margin: 0;
-    padding: 0;
     border-color: #aaa #444 #444 #aaa;
     color: #fff;
-    width: 100%;
     font-size: 1.5em;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    width: 100%;
 }
 
 .delete {
     background-color: #D91E18;
-    margin-left: .5em;
-    text-decoration: none;
     border: 0;
     border-color: #aaa #444 #444 #aaa;
     color: #fff;
     float: right;
     font-size: .7em;
+    margin-left: .5em;
+    padding: .2em .4em .2em .4em;
+    text-decoration: none;
 }
