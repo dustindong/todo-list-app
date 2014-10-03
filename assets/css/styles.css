@@ -19,7 +19,7 @@ img {
   max-width: 100%; }
 
 .wrap {
-  background-color: #2980b9;
+  background-color: #dadfe1;
   margin: 0 auto;
   max-width: 40em; }
 
@@ -30,6 +30,7 @@ img {
   margin: 0;
   margin-bottom: 0em;
   padding: 0;
+  padding-top: .3em;
   text-align: center;
   vertical-align: center; }
 
@@ -39,11 +40,13 @@ img {
   font-size: 1.5em; }
 
 .todo input {
-  padding-left: .2em;
-  width: 100%; }
+  padding: .3em;
+  padding-left: 1em;
+  width: 100%;
+  line-height: 1.5em; }
 
 .list {
-  background-color: white;
+  background-color: #fff;
   border: 0px solid black;
   font-size: 1.5em;
   margin: 0;
@@ -53,28 +56,44 @@ img {
 .list ol {
   list-style-type: none;
   margin: 0;
-  padding: 0; }
+  padding: 1em; }
 
 .list li {
   overflow: hidden;
-  padding: .3em;
-  width: 100%; }
+  padding: .7em;
+  width: 100%;
+  background-color: #EEEEEE;}
 
 .list li:nth-child(even) {
   background-color: lightgrey; }
 
-.addtodo button {
-  background-color: #3498db;
+
+.addtodo {
+  background-color: #26A65B;
+  color: #fff;
+  font-size: 1.3em;
+  margin: 0;
+  padding: .3em;
+  text-align: center;
+  text-decoration: none;
+  width: 100%;
+  border-bottom: 5px solid #1A733F;
+  border-radius: 10px;
+  }
+
+.delete {
+  background-color: #D91e18;
   border: 0;
   border-color: #aaa #444 #444 #aaa;
   color: #fff;
-  font-size: 1.5em;
-  margin: 0;
-  padding: 0;
+  float: right;
+  font-size: .7em;
+  margin-left: .5em;
+  padding: .2em .4em .2em .4em;
   text-decoration: none;
-  width: 100%; }
+  opacity: 0;}
 
-.delete {
+.delete:hover {
   background-color: #D91E18;
   border: 0;
   border-color: #aaa #444 #444 #aaa;
@@ -83,6 +102,7 @@ img {
   font-size: .7em;
   margin-left: .5em;
   padding: .2em .4em .2em .4em;
-  text-decoration: none; }
+  text-decoration: none;
+  opacity: 1;}
 
 /*# sourceMappingURL=styles.css.map */

@@ -1,5 +1,5 @@
 $(document).ready(function(){
-    $('button').click(function(){
+    $('.addtodo').click(function(){
         var item = $('input[name=additem]').val();
         $('ol').append('<li>'+ item +' <span class="delete">Done</span></li>');
     });
